@@ -1,0 +1,664 @@
+{
+  "executive_summary": "Stripe achieved a valuation of $159 billion following an employee tender offer in February 2026, though leadership continues to emphasize that going public is not a near-term priority. The company maintains high product velocity, highlighted by 288 product launches at Stripe Sessions in April 2026 and pioneering developments in AI-driven agentic commerce. To bolster its market dominance, Stripe completed key acquisitions such as Lemon Squeezy and Bridge, though it faces ongoing merchant sentiment challenges regarding transaction fees and support responsiveness.",
+  "timeline": [
+    {
+      "date": "2025-05",
+      "title": "Stripe Managed Payments Announced",
+      "description": "Stripe announced Stripe Managed Payments to scale merchant-of-record selling.",
+      "category": "product",
+      "evidence_ids": [
+        "N3"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2025-08",
+      "title": "Stripe Billing and Payment Enhancements",
+      "description": "Stripe introduced BillingSDK for native iOS apps, customer portal payment visibility, third-party payment processor support, and added Klarna recurring payments and Zip BNPL options.",
+      "category": "product",
+      "evidence_ids": [
+        "P2",
+        "P3"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2025-09",
+      "title": "Tender Offer Initiated at $106.7B",
+      "description": "Stripe completed a separate employee tender offer valuing the company at $106.7 billion.",
+      "category": "funding",
+      "evidence_ids": [
+        "C3"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2025-10",
+      "title": "Agentic Commerce Protocol and Suite Launched",
+      "description": "Stripe introduced the Agentic Commerce Protocol (ACP), Shared Payment Tokens, Agentic Commerce Suite, and stablecoin-based machine payments for API calls.",
+      "category": "product",
+      "evidence_ids": [
+        "N2"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-01",
+      "title": "Lemon Squeezy Migration Path Live",
+      "description": "Following its July 2024 acquisition of Lemon Squeezy, Stripe went live with the public migration path to Stripe Managed Payments.",
+      "category": "acquisition",
+      "evidence_ids": [
+        "N3"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-02",
+      "title": "IPO Deprioritized by Leadership",
+      "description": "Co-founder John Collison stated at Davos that going public is not a near-term priority, noting the industry is in its fastest-moving phase since Stripe's inception.",
+      "category": "leadership",
+      "evidence_ids": [
+        "C2"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Tender Offer Closes at $159B Valuation",
+      "description": "Stripe closed a major employee tender offer led by Thrive Capital, Coatue, and a16z, raising its valuation marker to $159 billion.",
+      "category": "funding",
+      "evidence_ids": [
+        "C1",
+        "C3"
+      ],
+      "score": 0.97,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-04",
+      "title": "Stripe Sessions Product Blitz",
+      "description": "Stripe announced 288 product launches spanning billing, treasury, and revenue tooling during its annual Stripe Sessions event.",
+      "category": "product",
+      "evidence_ids": [
+        "N1"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-08",
+      "title": "Global Workforce Distribution Details Released",
+      "description": "Analysis of Stripe's workforce reveals concentration in North America (56.2%) and engineering roles (43.9%), with Finance and Operations growing fastest.",
+      "category": "hiring",
+      "evidence_ids": [
+        "C4",
+        "C5"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    }
+  ],
+  "strategy": [
+    {
+      "statement": "Prioritizing employee liquidity over near-term public listings, using private tender offers to manage share liquidity while maintaining freedom from public market pressures.",
+      "evidence_ids": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "score": 0.97,
+      "confidence": "high"
+    },
+    {
+      "statement": "Pioneering AI-driven commerce systems by establishing agent integration standards and protocol-free machine payment mechanisms.",
+      "evidence_ids": [
+        "N2",
+        "P1"
+      ],
+      "score": 0.955,
+      "confidence": "high"
+    },
+    {
+      "statement": "Leveraging aggressive M&A to consolidate merchant-of-record capabilities and cryptocurrency/stablecoin payment infrastructure.",
+      "evidence_ids": [
+        "N3",
+        "N4"
+      ],
+      "score": 0.845,
+      "confidence": "high"
+    }
+  ],
+  "swot": {
+    "strengths": [
+      {
+        "point": "Dominant developer adoption and market mindshare compared to direct competitors.",
+        "evidence_ids": [
+          "S7"
+        ],
+        "score": 0.65,
+        "confidence": "medium"
+      },
+      {
+        "point": "Massive capital valuation ($159B) backed by top-tier venture capital firms.",
+        "evidence_ids": [
+          "C1",
+          "C3"
+        ],
+        "score": 0.97,
+        "confidence": "high"
+      },
+      {
+        "point": "Strong product innovation speed, executing hundreds of updates across billing, treasury, and payments annually.",
+        "evidence_ids": [
+          "N1",
+          "P1",
+          "P2"
+        ],
+        "score": 0.96,
+        "confidence": "high"
+      }
+    ],
+    "weaknesses": [
+      {
+        "point": "Pockets of merchant dissatisfaction regarding high transaction fees eating into operating margins.",
+        "evidence_ids": [
+          "S1"
+        ],
+        "score": 0.68,
+        "confidence": "medium"
+      },
+      {
+        "point": "Inconsistencies in support responsiveness, with some users reporting extremely long delays.",
+        "evidence_ids": [
+          "S1",
+          "S3"
+        ],
+        "score": 0.68,
+        "confidence": "medium"
+      }
+    ],
+    "opportunities": [
+      {
+        "point": "Capitalizing on AI agent transactions and API-driven micropayments through the Agentic Commerce Protocol.",
+        "evidence_ids": [
+          "N2"
+        ],
+        "score": 0.93,
+        "confidence": "high"
+      },
+      {
+        "point": "Scaling merchant-of-record services globally via Stripe Managed Payments.",
+        "evidence_ids": [
+          "N3"
+        ],
+        "score": 0.93,
+        "confidence": "high"
+      }
+    ],
+    "threats": [
+      {
+        "point": "Intense competition from enterprise-focused competitors like Adyen who offer deep customization.",
+        "evidence_ids": [
+          "S6"
+        ],
+        "score": 0.65,
+        "confidence": "medium"
+      },
+      {
+        "point": "Merchant churn driven by perceived disparities between sales responsiveness and actual customer support response times.",
+        "evidence_ids": [
+          "S1",
+          "S3"
+        ],
+        "score": 0.68,
+        "confidence": "medium"
+      }
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Adyen",
+      "threat_level": "medium",
+      "rationale": "Adyen actively competes for large global enterprises by offering streamlined integration, advanced risk management, and enterprise-grade customization, though Stripe still leads in overall developer-focused adoption.",
+      "evidence_ids": [
+        "S6",
+        "S7"
+      ],
+      "score": 0.65,
+      "confidence": "medium"
+    },
+    {
+      "name": "PayPal",
+      "threat_level": "low",
+      "rationale": "Rumored target of a massive, albeit highly unconfirmed and contradictory, takeover bid by Stripe in 2026.",
+      "evidence_ids": [
+        "N5"
+      ],
+      "score": 0.13,
+      "confidence": "low"
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "Customer Support Performance",
+      "evidence_ids": [
+        "S1",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "claims": [
+        {
+          "evidence_id": "S1",
+          "claim": "Customer support is much slower than it used to be."
+        },
+        {
+          "evidence_id": "S3",
+          "claim": "Automated response emails claim support takes 15 business working days to reply."
+        },
+        {
+          "evidence_id": "S4",
+          "claim": "Support is hyper responsive and provided a real human within five minutes."
+        },
+        {
+          "evidence_id": "S5",
+          "claim": "Stripe is an excellent company with great support, contrary to Reddit complaints."
+        }
+      ],
+      "resolution": "Support experiences are highly variable. Formal support channels through email appear slow (up to 15 days), while other users report highly responsive human contact, indicating tier-based support or platform inconsistencies.",
+      "status": "unresolved"
+    }
+  ],
+  "gaps": [
+    "Recent regulatory or legal challenges Stripe has faced in key US and EU markets.",
+    "Detailed month-by-month historical shift data comparing engineering and sales hiring over the past year.",
+    "Specific quantitative metrics illustrating how emerging competitors (such as Checkout.com) directly impact Stripe's enterprise checkout market share.",
+    "[News & Web] q6: What regulatory or legal challenges has Stripe faced recently in key markets like the US and EU?",
+    "[Company Data] Detailed historical shift data comparing engineering versus sales hiring over the past year on a month-by-month basis is not fully detailed beyond current functional distributions and open role counts.",
+    "[Social & Sentiment] Specific quantitative metrics regarding how emerging fintech competitors like Checkout.com are directly impacting Stripe's specific market share percentages in enterprise checkout."
+  ],
+  "audit": {
+    "rejected_at_retrieval": 0,
+    "removed_unsupported": 1
+  },
+  "company": "Stripe",
+  "domain": "",
+  "query": "Stripe",
+  "generated_at": "2026-10-03 23:46 UTC",
+  "mode": "live",
+  "depth": "quick",
+  "llm": "gemini",
+  "plan": [
+    {
+      "id": "q1",
+      "question": "What major product launches, acquisitions, or enterprise partnerships has Stripe announced in the last 12-18 months?",
+      "role": "news",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "question": "What are the latest developments regarding Stripe's valuation, secondary share sales, and potential IPO timeline?",
+      "role": "company",
+      "priority": 1
+    },
+    {
+      "id": "q3",
+      "question": "What notable updates have been made to Stripe's core payment APIs, Billing, and Issuing products recently?",
+      "role": "product",
+      "priority": 2
+    },
+    {
+      "id": "q4",
+      "question": "What are developers and merchants currently saying on Reddit and X regarding Stripe's recent fee changes and customer support quality?",
+      "role": "social",
+      "priority": 2
+    },
+    {
+      "id": "q5",
+      "question": "How have Stripe's hiring patterns shifted geographically and across engineering versus sales roles over the past year?",
+      "role": "company",
+      "priority": 3
+    },
+    {
+      "id": "q6",
+      "question": "What regulatory or legal challenges has Stripe faced recently in key markets like the US and EU?",
+      "role": "news",
+      "priority": 2
+    },
+    {
+      "id": "q7",
+      "question": "How are emerging fintech competitors like Adyen and Checkout.com impacting Stripe's market share in enterprise checkout?",
+      "role": "social",
+      "priority": 3
+    }
+  ],
+  "findings": [
+    {
+      "id": "C1",
+      "role": "company",
+      "question_id": "q2",
+      "claim": "Stripe's most recent valuation is $159B from a February 2026 employee tender offer, with no confirmed IPO timeline or S-1 on file as of August 2026.",
+      "source_url": "https://valueaddvc.com/blog/stripe-ipo-rumors-2026-what-we-know-about-valuation-timeline-and-strategy",
+      "source_title": "Stripe IPO 2026: $159B Valuation and $1.9T Volume",
+      "snippet": "As of August 2026, Stripe still has no S-1 on file and no confirmed IPO timeline. The company's most recent valuation marker is $159B, set in a February 24, 2026 employee tender offer led by Thrive Capital, Coatue, and a16z.",
+      "date": "2026-08",
+      "confidence": "high",
+      "category": "funding",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "C2",
+      "role": "company",
+      "question_id": "q2",
+      "claim": "Co-founder John Collison stated in February 2026 that going public is not a near-term priority.",
+      "source_url": "https://valueaddvc.com/blog/stripe-ipo-rumors-2026-what-we-know-about-valuation-timeline-and-strategy",
+      "source_title": "Stripe IPO 2026: $159B Valuation and $1.9T Volume",
+      "snippet": "Co-founder John Collison said at Davos that same month that going public is not a near-term priority, calling it 'the fastest-moving time in our industry since we started Stripe'",
+      "date": "2026-02",
+      "confidence": "high",
+      "category": "leadership",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "C3",
+      "role": "company",
+      "question_id": "q2",
+      "claim": "Stripe completed a tender offer in September 2025 at a $106.7 billion valuation before reaching $159 billion in February 2026.",
+      "source_url": "https://tsginvest.com/stripe",
+      "source_title": "Stripe Stock: $159B Valuation — Is It a Buy? | TSG Invest",
+      "snippet": "In September 2025, Stripe completed a separate tender offer at a $106.7 billion valuation... the deal ultimately closed on February 24, 2026 at a $159 billion valuation",
+      "date": "2026-02-24",
+      "confidence": "high",
+      "category": "funding",
+      "grounding": 0.963,
+      "score": 0.93
+    },
+    {
+      "id": "C4",
+      "role": "company",
+      "question_id": "q5",
+      "claim": "Stripe's global workforce is concentrated primarily in North America at 56.2%, followed by South Asia at 14.3% and Northern Europe at 10.9%.",
+      "source_url": "https://www.reveliolabs.com/companies/stripe/employees",
+      "source_title": "Stripe Number of Employees 2026 | Employee Count & Headcount Data | Revelio Labs",
+      "snippet": "Stripe's workforce is concentrated most in North America (56.2%), followed by South Asia (14.3%) and Northern Europe (10.9%).",
+      "date": "2026-08",
+      "confidence": "high",
+      "category": "hiring",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "C5",
+      "role": "company",
+      "question_id": "q5",
+      "claim": "Stripe's functional groups consist of Engineering at 43.9%, Finance and Operations at 37.1%, and Sales and Marketing at 19.0%.",
+      "source_url": "https://www.reveliolabs.com/companies/stripe/employees",
+      "source_title": "Stripe Number of Employees 2026 | Employee Count & Headcount Data | Revelio Labs",
+      "snippet": "Stripe's functional groups are Engineering (43.9%), Finance and Operations (37.1%), and Sales and Marketing (19.0%), with Finance and Operations growing faste",
+      "date": "2026-08",
+      "confidence": "high",
+      "category": "hiring",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "N1",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "At Stripe Sessions in April 2026, Stripe announced 288 product launches covering billing, treasury, and revenue tooling.",
+      "source_url": "https://tech-insider.org/igt-stripe-vs-worldpay-vs-nuvei-for-licensed-gambling-card-en-d182",
+      "source_title": "Stripe vs Worldpay vs Nuvei: 1 of 3 Bans Bets [2026] - Tech Insider",
+      "snippet": "at Stripe Sessions in April 2026, the company announced 288 product launches spanning billing, treasury, and revenue tooling",
+      "date": "2026-07-01",
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "N2",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Stripe launched the Agentic Commerce Protocol (ACP), Shared Payment Tokens, Agentic Commerce Suite, and machine payments in 2025, following the Agent SDK in 2024.",
+      "source_url": "https://coinlaw.io/stripe-statistics",
+      "source_title": "Stripe Statistics 2026: TPV & Market Share • CoinLaw",
+      "snippet": "| Agent SDK | 2024 | Agent integration toolkit |\n| Agentic Commerce Protocol (ACP) | 2025 | Open standard with OpenAI |\n| Shared Payment Tokens | 2025 | Credential-free agent payments |\n| Agentic Commerce Suite | 2025 | Multi-protocol selling tools |\n| Machine payments | 2025 | Stablecoin micropayments for API calls |",
+      "date": "2025-10-22",
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "N3",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Stripe acquired Lemon Squeezy on July 26, 2024, announced Stripe Managed Payments in May 2025, and published the migration path in January 2026.",
+      "source_url": "https://platformpolicy.com/resources/brief/stripe-risk-brief",
+      "source_title": "Stripe Risk Brief: Merchant of Record Migration & Vendor Lock-In Exposure | PlatformPolicy",
+      "snippet": "On July 26, 2024, Stripe acquired Lemon Squeezy — the merchant-of-record platform... The same day, Stripe CEO Patrick Collison announced the company would \"scale merchant of record selling in a big way.\" By January 2026, the public migration path to Stripe Managed Payments was live.",
+      "date": "2026-03-15",
+      "confidence": "high",
+      "category": "acquisition",
+      "grounding": 0.978,
+      "score": 0.93
+    },
+    {
+      "id": "N4",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Over the past 18 months, Stripe acquired Bridge.",
+      "source_url": "https://fundandgrow.com/what-could-the-53b-stripe-paypal-acquisition-mean-for-small-businesses-and-consumers",
+      "source_title": "What the $53B PayPal Acquisition Means for Small Businesses in 2026",
+      "snippet": "Over the past 18 months it also acquired Bridge for",
+      "date": "2026-08-03",
+      "confidence": "medium",
+      "category": "acquisition",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "N5",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Reports mention a $53 billion takeover bid by Stripe for PayPal in 2026.",
+      "source_url": "https://fundandgrow.com/what-could-the-53b-stripe-paypal-acquisition-mean-for-small-businesses-and-consumers",
+      "source_title": "What the $53B PayPal Acquisition Means for Small Businesses in 2026",
+      "snippet": "Stripe's 3 Billion PayPal Takeover Bid: The Largest Fintech Acquisition in History",
+      "date": "2026-08-03",
+      "confidence": "low",
+      "category": "acquisition",
+      "grounding": 0.538,
+      "score": 0.13
+    },
+    {
+      "id": "N6",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "ElevenLabs expanded its partnership with Stripe on payments as its ARR surpassed $500M.",
+      "source_url": "https://www.linkedin.com/posts/jeremy-aidem-1338767a_last-week-was-stripes-flagship-event-stripe-activity-7457850421198393345-m6g2",
+      "source_title": "Stripe Sessions: 2 Trillion in Annual Payment Volume, New ...",
+      "snippet": "ElevenLabs expands Stripe partnership on payments as ARR surpasses $500M Voice AI platform #ElevenLabs is deepening its partnership with #Stripe to support its",
+      "date": null,
+      "confidence": "medium",
+      "category": "partnership",
+      "grounding": 1.0,
+      "score": 0.65
+    },
+    {
+      "id": "P1",
+      "role": "product",
+      "question_id": "q3",
+      "claim": "Stripe Billing previewed Stripe Scripts and added Workflows to execute multistep flows using APIs and conditional logic, an AI benchmarking tool, mixed interval subscriptions, subscription consolidation, unallocated/partial payments, and expanded Stripe Organizations support.",
+      "source_url": "https://stripe.com/blog/top-product-updates-sessions-2025",
+      "source_title": "Our top product updates from Sessions 2025",
+      "snippet": "We previewed Stripe Scripts, a new way to extend and customize the logic in Stripe Billing.\n You can now build, test, and execute multistep flows that orchestrate across Stripe products—using your data, Stripe’s APIs, and conditional logic—with Workflows.\n Our new AI-powered benchmarking tool lets you compare your performance against similar businesses on Stripe.\n You can now set up mixed interval subscriptions, consolidate subscriptions on an invoice, unallocate payments, and set up partial payments.\n You can now access financial reports and streamline connections to your data warehouses across all your Stripe accounts with Stripe Organizations’ expanded support for Billing.",
+      "date": null,
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.9
+    },
+    {
+      "id": "P2",
+      "role": "product",
+      "question_id": "q3",
+      "claim": "Stripe Billing introduced BillingSDK for native iOS subscription management (preview), visibility for custom payment methods in the customer portal (preview), and third-party payment processor support for failed payments and dunning (preview).",
+      "source_url": "https://stripe.com/blog/changelog",
+      "source_title": "Stripe Blog: Changelog",
+      "snippet": "1. Billing You can now use the BillingSDK to integrate subscription purchases and management flows natively in your iOS app.\n2. Billing Custom payment methods are now visible on the customer portal, enabling customers to easily view which payment method has been used (preview).\n3. Billing Failed payments and dunning are now supported for Billing users who are integrating with third-party payment processors (preview).",
+      "date": "2025-08",
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "P3",
+      "role": "product",
+      "question_id": "q3",
+      "claim": "Stripe Payments added support for US businesses to offer Zip as a buy now, pay later method and added subscription and recurring payments support on Klarna.",
+      "source_url": "https://stripe.com/blog/changelog",
+      "source_title": "Stripe Blog: Changelog",
+      "snippet": "2. Payments Businesses in the US can now offer Zip, a buy now, pay later method.\n1. Payments Subscription and recurring payments are now supported on Klarna.",
+      "date": "2025-08",
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "P4",
+      "role": "product",
+      "question_id": "q3",
+      "claim": "Stripe's changelog mentions various updates such as adding presentment details for Adaptive Pricing Subscriptions and modifications to Issuing and Invoicing attributes.",
+      "source_url": "https://docs.stripe.com/changelog",
+      "source_title": "Changelog | Stripe Documentation",
+      "snippet": "Adds presentment details for Adaptive Pricing Subscriptions\n\nBilling\n\n## 2024\n\n2024-06-20\n\nBreaking changes\n\nRenames a `fuel` attribute of the `Authorization` object\n\nIssuingRenames a `purchase_details` attribute of the `Transaction` object",
+      "date": null,
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.9
+    },
+    {
+      "id": "S1",
+      "role": "social",
+      "question_id": "q4",
+      "claim": "Some merchants on Trustpilot complain that transaction fees are eating into their margins and that customer support is much slower than previously.",
+      "source_url": "https://www.trustpilot.com/review/stripe.com",
+      "source_title": "Stripe is rated \"Bad\" with 1.6 / 5 on Trustpilot",
+      "snippet": "The transaction fees are really starting to eat into my margins. Support is also much slower than it used to be. Had some issues getting the API to play nicely with my site.",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "S2",
+      "role": "social",
+      "question_id": "q4",
+      "claim": "A Trustpilot review complains about being charged a fee on a dispute that was won.",
+      "source_url": "https://www.trustpilot.com/review/stripe.com",
+      "source_title": "Stripe is rated \"Bad\" with 1.6 / 5 on Trustpilot",
+      "snippet": "why stripe still charges me on a dispute that I won? this does not make any sense. I hope this gets changed in future. false disputes are causing damages.",
+      "date": "2026-09-11",
+      "confidence": "medium",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "S3",
+      "role": "social",
+      "question_id": "q4",
+      "claim": "A Trustpilot reviewer notes that automated responses claim email support takes 15 business working days to reply, whereas contacting sales takes less than one day.",
+      "source_url": "https://www.trustpilot.com/review/stripe.com",
+      "source_title": "Stripe is rated \"Bad\" with 1.6 / 5 on Trustpilot",
+      "snippet": "15 business working days to reply to an email.... but to contact sales takes less than one day. I quote the automated response \" we will aim to provide a response within 15 business da",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "S4",
+      "role": "social",
+      "question_id": "q4",
+      "claim": "A Reddit user on r/stripe reports that customer support was hyper responsive and provided a real human within about five minutes.",
+      "source_url": "https://www.reddit.com/r/stripe/comments/1f96778/support_is_actually_good",
+      "source_title": "Support is actually good? : r/stripe",
+      "snippet": "A few times that I’ve contacted Stripe they’ve been hyper responsive and I got a real human within about five minutes. The person on the other has",
+      "date": null,
+      "confidence": "medium",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.65
+    },
+    {
+      "id": "S5",
+      "role": "social",
+      "question_id": "q4",
+      "claim": "A Reddit user states that Stripe is an excellent company with great support, contrary to other negative posts on the subreddit.",
+      "source_url": "https://www.reddit.com/r/stripe/comments/1fa4vla/my_unpopular_opinion_despite_what_you_read_on",
+      "source_title": "My unpopular opinion: Despite what you read on r/stripe ...",
+      "snippet": "My unpopular opinion: Despite what you read on r/stripe, Stripe is an excellent company with great support. So, guys, I've",
+      "date": null,
+      "confidence": "medium",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.65
+    },
+    {
+      "id": "S6",
+      "role": "social",
+      "question_id": "q7",
+      "claim": "Adyen competes with Stripe by offering streamlined integration, advanced risk management, and enterprise-grade customization, appealing to large global enterprises.",
+      "source_url": "https://swellpulse.ai/companies/stripe",
+      "source_title": "Stripe Company Overview (2026) — Business Model, Funding & Analysis | Swellpulse",
+      "snippet": "Adyen is a global payment platform competing with Stripe through streamlined integration, advanced risk management, and enterprise-grade customization, with notable clients including eBay .",
+      "date": null,
+      "confidence": "medium",
+      "category": "market",
+      "grounding": 1.0,
+      "score": 0.65
+    },
+    {
+      "id": "S7",
+      "role": "social",
+      "question_id": "q7",
+      "claim": "Stripe's developer adoption and market attention significantly outpace Adyen's, and Stripe dominates developer-focused business adoption.",
+      "source_url": "https://swellpulse.ai/companies/stripe",
+      "source_title": "Stripe Company Overview (2026) — Business Model, Funding & Analysis | Swellpulse",
+      "snippet": "Stripe's developer adoption and market attention significantly outpace Adyen's despite comparable global reach claims.",
+      "date": null,
+      "confidence": "medium",
+      "category": "market",
+      "grounding": 1.0,
+      "score": 0.65
+    }
+  ],
+  "stats": {
+    "findings": 22,
+    "sources": 15,
+    "grounded_pct": 95,
+    "avg_confidence": 78,
+    "contradictions": 1,
+    "by_role": {
+      "news": 6,
+      "company": 5,
+      "product": 4,
+      "social": 7
+    }
+  }
+}

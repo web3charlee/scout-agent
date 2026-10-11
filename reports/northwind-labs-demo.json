@@ -1,0 +1,563 @@
+{
+  "executive_summary": "Northwind Labs is a young European AI routing vendor that is moving upmarket. Since late 2025 it has acquired a planning startup, raised a Series A, shipped a natural-language Copilot, and landed its largest enterprise deal. Hiring for US enterprise sales and a switch to usage-based pricing suggest an expansion push beyond Europe. Customer sentiment is strong on routing quality but shows friction in onboarding and reporting. Reports of the Series A size conflict ($15M vs $18M); the company's own press release is the more credible figure.",
+  "timeline": [
+    {
+      "date": "2025-11-18",
+      "title": "Acquires Routely",
+      "description": "All-stock acquisition of a seven-person route-planning team, adding a multi-stop planning engine.",
+      "category": "acquisition",
+      "evidence_ids": [
+        "N2"
+      ],
+      "score": 0.68,
+      "confidence": "medium"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Announces Series A",
+      "description": "Round led by Cobalt Ridge Ventures to expand to mid-market forwarders and double engineering.",
+      "category": "funding",
+      "evidence_ids": [
+        "N1",
+        "C1"
+      ],
+      "score": 0.845,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Launches Northwind Copilot",
+      "description": "Plain-English dispatcher assistant, directly challenging Parcelmind and Fleetwise; well received on Product Hunt.",
+      "category": "product",
+      "evidence_ids": [
+        "N3",
+        "P3"
+      ],
+      "score": 0.72,
+      "confidence": "medium"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Open-sources northwind-sdk 1.0",
+      "description": "Apache 2.0 SDK with Python and TypeScript clients and a routing simulator.",
+      "category": "product",
+      "evidence_ids": [
+        "P2"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Signs Harborline Freight",
+      "description": "Multi-year deployment across 40 terminals, its largest enterprise contract so far.",
+      "category": "partnership",
+      "evidence_ids": [
+        "N4"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Moves to usage-based pricing",
+      "description": "Per-seat licences replaced by per-optimised-route billing; existing customers grandfathered until renewal.",
+      "category": "pricing",
+      "evidence_ids": [
+        "C4"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Ships v3.2",
+      "description": "Multi-carrier routing API, EU data-residency controls (beta) and voice input for Copilot.",
+      "category": "product",
+      "evidence_ids": [
+        "P1"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    }
+  ],
+  "strategy": [
+    {
+      "statement": "Moving upmarket from European mid-market forwarders to large enterprise networks.",
+      "evidence_ids": [
+        "N1",
+        "N4",
+        "C3"
+      ],
+      "score": 0.98,
+      "confidence": "high"
+    },
+    {
+      "statement": "Building a defensible AI layer by combining an acquired planning engine, Copilot, and an open SDK that seeds an ecosystem.",
+      "evidence_ids": [
+        "N2",
+        "N3",
+        "P2"
+      ],
+      "score": 0.843,
+      "confidence": "high"
+    },
+    {
+      "statement": "Aligning revenue with customer value through usage-based pricing (inferred; no revenue data available).",
+      "evidence_ids": [
+        "C4"
+      ],
+      "score": 0.93,
+      "confidence": "high"
+    },
+    {
+      "statement": "Likely preparing a US push: enterprise sales roles in Chicago and Atlanta alongside fresh funding (inference, not announced).",
+      "evidence_ids": [
+        "C2",
+        "N1"
+      ],
+      "score": 0.97,
+      "confidence": "high"
+    }
+  ],
+  "swot": {
+    "strengths": [
+      {
+        "point": "Strong routing accuracy reputation and a 4.6/5 review average.",
+        "evidence_ids": [
+          "S2",
+          "S1"
+        ],
+        "score": 0.595,
+        "confidence": "medium"
+      },
+      {
+        "point": "Marquee enterprise reference in Harborline Freight.",
+        "evidence_ids": [
+          "N4"
+        ],
+        "score": 0.93,
+        "confidence": "high"
+      },
+      {
+        "point": "Fast shipping cadence across API, SDK and Copilot.",
+        "evidence_ids": [
+          "P1",
+          "P2",
+          "N3"
+        ],
+        "score": 0.927,
+        "confidence": "high"
+      }
+    ],
+    "weaknesses": [
+      {
+        "point": "Onboarding can take weeks and support replies are described as slow.",
+        "evidence_ids": [
+          "S1"
+        ],
+        "score": 0.43,
+        "confidence": "low"
+      },
+      {
+        "point": "Reviewers rate reporting below Parcelmind.",
+        "evidence_ids": [
+          "S2"
+        ],
+        "score": 0.68,
+        "confidence": "medium"
+      },
+      {
+        "point": "Limited legacy TMS integrations, raised at the Copilot launch.",
+        "evidence_ids": [
+          "P3"
+        ],
+        "score": 0.68,
+        "confidence": "medium"
+      }
+    ],
+    "opportunities": [
+      {
+        "point": "EU data residency, once generally available, could unlock switching demand.",
+        "evidence_ids": [
+          "S3",
+          "P1"
+        ],
+        "score": 0.72,
+        "confidence": "medium"
+      },
+      {
+        "point": "Open SDK and multi-carrier API can attract partners and integrators.",
+        "evidence_ids": [
+          "P1",
+          "P2"
+        ],
+        "score": 0.97,
+        "confidence": "high"
+      }
+    ],
+    "threats": [
+      {
+        "point": "AI-first rival Parcelmind already ships a comparable assistant.",
+        "evidence_ids": [
+          "N3",
+          "S2"
+        ],
+        "score": 0.72,
+        "confidence": "medium"
+      },
+      {
+        "point": "Incumbent Fleetwise competes on installed base.",
+        "evidence_ids": [
+          "N3",
+          "S2"
+        ],
+        "score": 0.72,
+        "confidence": "medium"
+      },
+      {
+        "point": "Pricing change may create churn risk at renewal for per-seat customers.",
+        "evidence_ids": [
+          "C4"
+        ],
+        "score": 0.93,
+        "confidence": "high"
+      }
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Parcelmind",
+      "threat_level": "high",
+      "rationale": "AI-first rival with a comparable assistant released a year earlier and stronger reporting per reviewers.",
+      "evidence_ids": [
+        "N3",
+        "S2"
+      ],
+      "score": 0.72,
+      "confidence": "medium"
+    },
+    {
+      "name": "Fleetwise",
+      "threat_level": "medium",
+      "rationale": "Incumbent with installed base; reviewers say Northwind is more flexible to set up.",
+      "evidence_ids": [
+        "N3",
+        "S2"
+      ],
+      "score": 0.72,
+      "confidence": "medium"
+    }
+  ],
+  "contradictions": [
+    {
+      "topic": "Series A amount ($15M vs $18M)",
+      "evidence_ids": [
+        "N1",
+        "C1"
+      ],
+      "claims": [
+        {
+          "evidence_id": "N1",
+          "claim": "Company press release: $15M Series A."
+        },
+        {
+          "evidence_id": "C1",
+          "claim": "Database profile: $18M Series A."
+        }
+      ],
+      "resolution": "Treat $15M as the working figure: it comes from the company's own dated release (primary source), while the $18M profile is a secondary aggregator two days later. A later extension cannot be ruled out.",
+      "status": "resolved"
+    },
+    {
+      "topic": "Customer experience: high ratings vs slow onboarding",
+      "evidence_ids": [
+        "S1",
+        "S2"
+      ],
+      "claims": [
+        {
+          "evidence_id": "S2",
+          "claim": "4.6/5 across 87 reviews."
+        },
+        {
+          "evidence_id": "S1",
+          "claim": "Six-week onboarding with slow support."
+        }
+      ],
+      "resolution": "Not strictly incompatible, but one anecdote cannot be weighed against 87 reviews. Needs more onboarding data.",
+      "status": "unresolved"
+    }
+  ],
+  "gaps": [
+    "No verified revenue, customer count or churn data.",
+    "Harborline contract value and terms are not disclosed.",
+    "No independent confirmation of the planned US expansion."
+  ],
+  "audit": {
+    "rejected_at_retrieval": 0,
+    "removed_unsupported": 0
+  },
+  "company": "Northwind Labs",
+  "domain": "",
+  "query": "Northwind Labs",
+  "generated_at": "2026-10-03 07:35 UTC",
+  "mode": "demo",
+  "depth": "standard",
+  "llm": "demo",
+  "plan": [
+    {
+      "id": "q1",
+      "question": "What announcements, partnerships or acquisitions has Northwind Labs made in the last 18 months?",
+      "role": "news",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which competitors does Northwind Labs face and how is it positioned against them?",
+      "role": "news",
+      "priority": 1
+    },
+    {
+      "id": "q3",
+      "question": "How much has Northwind Labs raised, from whom, and when?",
+      "role": "company",
+      "priority": 1
+    },
+    {
+      "id": "q4",
+      "question": "What do open roles and pricing changes reveal about Northwind's priorities?",
+      "role": "company",
+      "priority": 2
+    },
+    {
+      "id": "q5",
+      "question": "What has Northwind shipped recently and what direction does it signal?",
+      "role": "product",
+      "priority": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is Northwind's developer and open-source footprint?",
+      "role": "product",
+      "priority": 3
+    },
+    {
+      "id": "q7",
+      "question": "How do customers perceive Northwind and what do they complain about?",
+      "role": "social",
+      "priority": 2
+    }
+  ],
+  "findings": [
+    {
+      "id": "C1",
+      "role": "company",
+      "question_id": "q3",
+      "claim": "A company-profile database lists Northwind's February 2026 Series A at $18M.",
+      "source_url": "https://startupledger.example/companies/northwind-labs",
+      "source_title": "Northwind Labs company profile",
+      "snippet": "closed an $18 million Series A in February 2026",
+      "date": "2026-02-12",
+      "confidence": "medium",
+      "category": "funding",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "C2",
+      "role": "company",
+      "question_id": "q3",
+      "claim": "Northwind has 14 open roles: 9 in ML/platform engineering, 3 in enterprise sales (two of them in Chicago and Atlanta) and 2 in customer success.",
+      "source_url": "https://northwindlabs.example/careers",
+      "source_title": "Careers at Northwind Labs",
+      "snippet": "nine in machine learning and platform engineering, three in enterprise sales, and two in customer success. Two of the sales roles are based in Chicago and Atlanta",
+      "date": "2026-09-15",
+      "confidence": "high",
+      "category": "hiring",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "C3",
+      "role": "company",
+      "question_id": "q3",
+      "claim": "Northwind was founded in 2023 by Maya Okafor and Daan Visser and currently serves European freight forwarders.",
+      "source_url": "https://northwindlabs.example/about",
+      "source_title": "About Northwind Labs",
+      "snippet": "was founded in 2023 by Maya Okafor and Daan Visser",
+      "date": null,
+      "confidence": "high",
+      "category": "leadership",
+      "grounding": 1.0,
+      "score": 0.9
+    },
+    {
+      "id": "C4",
+      "role": "company",
+      "question_id": "q3",
+      "claim": "From 14 July 2026 Northwind switched from per-seat licences to usage-based pricing billed per optimised route.",
+      "source_url": "https://northwindlabs.example/pricing",
+      "source_title": "Northwind Labs pricing",
+      "snippet": "moves from per-seat licences to usage-based pricing, billed per optimised route",
+      "date": "2026-07-14",
+      "confidence": "high",
+      "category": "pricing",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "N1",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Northwind announced a $15M Series A led by Cobalt Ridge Ventures in February 2026, earmarked for mid-market expansion and doubling engineering.",
+      "source_url": "https://newsroom.northwindlabs.example/series-a",
+      "source_title": "Northwind Labs raises $15M Series A to bring AI routing to mid-market freight",
+      "snippet": "a $15 million Series A round led by Cobalt Ridge Ventures",
+      "date": "2026-02-10",
+      "confidence": "high",
+      "category": "funding",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "N2",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Northwind acquired the seven-person startup Routely in an all-stock deal, gaining a multi-stop planning engine.",
+      "source_url": "https://freightweekly.example/northwind-acquires-routely",
+      "source_title": "Northwind Labs acquires route-planning startup Routely",
+      "snippet": "Northwind Labs has acquired Routely, a seven-person route-planning startup, in an all-stock deal",
+      "date": "2025-11-18",
+      "confidence": "medium",
+      "category": "acquisition",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "N3",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Northwind launched Copilot, a plain-English dispatcher assistant, putting it in direct competition with Parcelmind and Fleetwise.",
+      "source_url": "https://logisticstechdaily.example/northwind-copilot",
+      "source_title": "Northwind launches Copilot, a natural-language dispatcher assistant",
+      "snippet": "lets dispatchers reassign loads and re-route trucks using plain English",
+      "date": "2026-04-22",
+      "confidence": "medium",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "N4",
+      "role": "news",
+      "question_id": "q1",
+      "claim": "Harborline Freight is rolling Northwind out across 40 terminals in a multi-year deal described as Northwind's largest enterprise contract.",
+      "source_url": "https://harborline.example/press/northwind-partnership",
+      "source_title": "Harborline Freight picks Northwind for network-wide route optimisation",
+      "snippet": "across its 40 regional terminals, replacing a legacy planning tool",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "category": "partnership",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "P1",
+      "role": "product",
+      "question_id": "q5",
+      "claim": "Release v3.2 added a multi-carrier routing API, EU data-residency controls (beta) and voice input for Copilot.",
+      "source_url": "https://docs.northwindlabs.example/changelog",
+      "source_title": "Northwind Labs changelog: v3.2",
+      "snippet": "v3.2 adds a multi-carrier routing API and EU data-residency controls in beta",
+      "date": "2026-08-30",
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "P2",
+      "role": "product",
+      "question_id": "q5",
+      "claim": "Northwind open-sourced northwind-sdk 1.0 (Apache 2.0) with Python and TypeScript clients and a routing simulator.",
+      "source_url": "https://github.example/northwind-labs/northwind-sdk/releases",
+      "source_title": "northwind-sdk releases",
+      "snippet": "northwind-sdk 1.0 is now open source under the Apache 2.0 licence",
+      "date": "2026-05-12",
+      "confidence": "high",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.93
+    },
+    {
+      "id": "P3",
+      "role": "product",
+      "question_id": "q5",
+      "claim": "Copilot's Product Hunt launch drew positive reaction, with requests for legacy TMS integrations.",
+      "source_url": "https://producthunt.example/posts/northwind-copilot",
+      "source_title": "Northwind Copilot on Product Hunt",
+      "snippet": "Commenters liked the plain-English dispatching but asked about integrations with older TMS software",
+      "date": "2026-04-23",
+      "confidence": "medium",
+      "category": "product",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "S1",
+      "role": "social",
+      "question_id": "q7",
+      "claim": "One customer reports a six-week onboarding, partly blamed on slow support replies, but praises routing quality.",
+      "source_url": "https://reddit.example/r/logistics/comments/x1",
+      "source_title": "Onboarding with Northwind took 6 weeks, anyone else?",
+      "snippet": "onboarding took six weeks, mostly because of data cleanup on our side and slow support replies",
+      "date": "2026-07-02",
+      "confidence": "low",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.43
+    },
+    {
+      "id": "S2",
+      "role": "social",
+      "question_id": "q7",
+      "claim": "Northwind averages 4.6/5 across 87 reviews; reviewers rank it above Fleetwise on flexibility but below Parcelmind on reporting.",
+      "source_url": "https://g2.example/products/northwind-labs/reviews",
+      "source_title": "Northwind Labs reviews",
+      "snippet": "holds a 4.6 out of 5 rating across 87 reviews",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.68
+    },
+    {
+      "id": "S3",
+      "role": "social",
+      "question_id": "q7",
+      "claim": "Dispatch managers say EU-only data residency being generally available would trigger switching to Northwind.",
+      "source_url": "https://x.example/logisticsops/status/123",
+      "source_title": "Thread: anyone using EU-only data residency?",
+      "snippet": "would switch to Northwind if EU-only data residency became generally available",
+      "date": "2026-08-11",
+      "confidence": "low",
+      "category": "sentiment",
+      "grounding": 1.0,
+      "score": 0.43
+    }
+  ],
+  "stats": {
+    "findings": 14,
+    "sources": 14,
+    "grounded_pct": 100,
+    "avg_confidence": 77,
+    "contradictions": 2,
+    "by_role": {
+      "news": 4,
+      "company": 4,
+      "product": 3,
+      "social": 3
+    }
+  }
+}

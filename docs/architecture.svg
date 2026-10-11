@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 460" font-family="Manrope,Arial,sans-serif">
+<rect width="1100" height="460" fill="#F4F7FD"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#0B2559"/></marker></defs>
+<g fill="#fff" stroke="#D5DEF0" stroke-width="1.5">
+<rect x="30" y="170" width="150" height="90" rx="14"/><rect x="250" y="170" width="170" height="90" rx="14" fill="#0B2559" stroke="#0B2559"/>
+<rect x="500" y="40" width="210" height="75" rx="14"/><rect x="500" y="140" width="210" height="75" rx="14"/>
+<rect x="500" y="240" width="210" height="75" rx="14"/><rect x="500" y="340" width="210" height="75" rx="14"/>
+<rect x="790" y="170" width="170" height="90" rx="14" fill="#0B2559" stroke="#0B2559"/>
+<rect x="990" y="190" width="90" height="50" rx="12" fill="#FFB020" stroke="#FFB020"/></g>
+<g fill="none" stroke="#0B2559" stroke-width="2" marker-end="url(#a)">
+<path d="M180,215 H250"/><path d="M420,215 C460,215 460,78 500,78"/><path d="M420,215 C460,215 460,178 500,178"/>
+<path d="M420,215 C460,215 460,278 500,278"/><path d="M420,215 C460,215 460,378 500,378"/>
+<path d="M710,78 C750,78 750,215 790,215"/><path d="M710,178 C750,178 750,215 790,215"/>
+<path d="M710,278 C750,278 750,215 790,215"/><path d="M710,378 C750,378 750,215 790,215"/><path d="M960,215 H990"/></g>
+<g fill="#0B2559" font-size="15" font-weight="800" text-anchor="middle">
+<text x="105" y="212">User query</text><text x="335" y="212" fill="#fff">Planner</text>
+<text x="605" y="72">News &amp; Web</text><text x="605" y="172">Company Data</text><text x="605" y="272">Product &amp; Tech</text><text x="605" y="372">Social &amp; Sentiment</text>
+<text x="875" y="212" fill="#fff">Critic / Synthesizer</text><text x="1035" y="220">Report</text></g>
+<g fill="#5B6B93" font-size="12" text-anchor="middle">
+<text x="105" y="232">name, URL or LinkedIn</text><text x="335" y="232" fill="#C7D5FF">5–8 questions, 4 roles</text>
+<text x="605" y="92">Tavily → Brave → Serper</text><text x="605" y="192">funding, jobs, pricing</text>
+<text x="605" y="292">changelog, GitHub, PH</text><text x="605" y="392">Reddit, X, reviews</text>
+<text x="875" y="232" fill="#C7D5FF">conflicts, confidence, audit</text>
+<text x="605" y="30" font-weight="700">parallel LangGraph fan-out (Send)</text>
+<text x="605" y="440">each finding: claim + URL + verbatim quote + date + confidence; quote must exist in the fetched page</text></g>
+</svg>

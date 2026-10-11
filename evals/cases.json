@@ -1,0 +1,13 @@
+[
+  {"id": "e1", "company": "Stripe", "tier": "well-known", "expect_any": ["payment"], "note": "Core product is payments infrastructure."},
+  {"id": "e2", "company": "Notion", "tier": "well-known", "expect_any": ["confluence", "coda", "workspace", "docs"], "note": "Should place Notion against workspace/doc tools."},
+  {"id": "e3", "company": "Vercel", "tier": "well-known", "expect_any": ["next.js", "nextjs"], "note": "Next.js is Vercel's flagship framework."},
+  {"id": "e4", "company": "Figma", "tier": "well-known", "expect_any": ["adobe", "design"], "note": "Design tool; Adobe is the historic rival."},
+  {"id": "e5", "company": "Databricks", "tier": "well-known", "expect_any": ["snowflake", "lakehouse", "data"], "note": "Data and AI platform; Snowflake is the main rival."},
+  {"id": "e6", "company": "Linear", "tier": "mid-stage", "expect_any": ["jira", "issue", "project"], "note": "Issue tracking; Jira is the incumbent."},
+  {"id": "e7", "company": "Perplexity", "tier": "mid-stage", "expect_any": ["search", "answer"], "note": "AI answer engine."},
+  {"id": "e8", "company": "Mistral AI", "tier": "mid-stage", "expect_any": ["model", "open"], "note": "Foundation-model lab."},
+  {"id": "e9", "company": "https://tavily.com", "tier": "early-stage / URL input", "expect_any": ["search", "api"], "note": "Tests URL normalisation; agent-search API."},
+  {"id": "e10", "company": "Zxqv Holdings Nonexistent", "tier": "negative control", "expect_any": [], "expect_empty": true,
+   "note": "Fictional company. Scout must NOT invent findings; a sparse or empty report with stated gaps is the correct result."}
+]

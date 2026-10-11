@@ -1,0 +1,90 @@
+{
+  "executive_summary": "Scout could not retrieve enough reliable public evidence about Stripe to report on. No claims were made.",
+  "timeline": [],
+  "strategy": [],
+  "swot": {
+    "strengths": [],
+    "weaknesses": [],
+    "opportunities": [],
+    "threats": []
+  },
+  "competitors": [],
+  "contradictions": [],
+  "gaps": [
+    "No verifiable findings were produced.",
+    "[news] researcher failed (LLMError); its questions are unanswered.",
+    "[company] researcher failed (LLMError); its questions are unanswered.",
+    "[product] researcher failed (LLMError); its questions are unanswered.",
+    "[social] researcher failed (LLMError); its questions are unanswered."
+  ],
+  "audit": {
+    "rejected_at_retrieval": 0,
+    "removed_unsupported": 0
+  },
+  "company": "Stripe",
+  "domain": "",
+  "query": "Stripe",
+  "generated_at": "2026-10-03 23:10 UTC",
+  "mode": "live",
+  "depth": "quick",
+  "llm": "gemini",
+  "plan": [
+    {
+      "id": "q1",
+      "question": "What have been Stripe's most significant announcements, partnerships or acquisitions in the last 18 months?",
+      "role": "news",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "question": "What legal, regulatory or reputational events have affected Stripe recently?",
+      "role": "news",
+      "priority": 3
+    },
+    {
+      "id": "q3",
+      "question": "How much funding has Stripe raised, from whom, and when?",
+      "role": "company",
+      "priority": 1
+    },
+    {
+      "id": "q4",
+      "question": "What do Stripe's job postings and leadership changes reveal about its priorities?",
+      "role": "company",
+      "priority": 2
+    },
+    {
+      "id": "q5",
+      "question": "What has Stripe shipped recently (launches, changelog, releases) and what direction do they signal?",
+      "role": "product",
+      "priority": 1
+    },
+    {
+      "id": "q6",
+      "question": "What is Stripe's technology stack and developer-facing footprint?",
+      "role": "product",
+      "priority": 3
+    },
+    {
+      "id": "q7",
+      "question": "How do customers and the community perceive Stripe, and what do they complain about?",
+      "role": "social",
+      "priority": 2
+    },
+    {
+      "id": "q8",
+      "question": "Who are Stripe's main competitors and how are they positioned against Stripe?",
+      "role": "news",
+      "priority": 1
+    }
+  ],
+  "findings": [],
+  "stats": {
+    "findings": 0,
+    "sources": 0,
+    "grounded_pct": 0,
+    "avg_confidence": 0,
+    "contradictions": 0,
+    "by_role": {}
+  }
+}
